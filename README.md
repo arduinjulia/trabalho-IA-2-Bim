@@ -28,7 +28,7 @@ Foi utilizado o algoritmo Multinomial Naive Bayes.
 * **Recall (Negativo / Positivo):** 0.85 / 0.85
 * **F1-Score:** 0.85
 
-![Matriz de Confusão Naive Bayes](matriz_confusao_Naive.png)
+![Matriz de Confusão Naive Bayes](imagens/matriz_confusao_Naive.png)
 
 ### MODELO 2: Redes Neurais MLP (Parte 2 da disciplina)
 Foi utilizada uma arquitetura Multilayer Perceptron (MLP) com uma camada oculta de 50 neurônios, treinada por 20 épocas.
@@ -37,8 +37,8 @@ Foi utilizada uma arquitetura Multilayer Perceptron (MLP) com uma camada oculta 
 * **Recall (Negativo / Positivo):** 0.86 / 0.88
 * **F1-Score:** 0.87
 
-![Matriz de Confusão MLP](matriz_confusao_MLP.png)
-![Curva de Perda MLP](curva_perda_MLP.png)
+![Matriz de Confusão MLP](imagens/matriz_confusao_MLP.png)
+![Curva de Perda MLP](imagens/curva_perda_MLP.png)
 
 ## Comparação dos Resultados
 Ambos os modelos apresentaram excelentes resultados para processamento de texto. O Naive Bayes atingiu 85% de acurácia com um tempo de treinamento quase instantâneo, provando ser um ótimo modelo base (baseline). 
